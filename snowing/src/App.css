@@ -4,15 +4,26 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-.container {
-  position: relative;
+  background-image: url(image/giant-hummingbird.jpg);
   width: 100%;
   height: 100vh;
-  background-image: url(image/giant-hummingbird.jpg);
+
   background-position: center;
   overflow: hidden;
   background-repeat: no-repeat;
   background-size: 2050px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 48px;
+  font-family: "Snowburst One", system-ui;
 }
