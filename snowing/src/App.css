@@ -25,5 +25,7 @@ body {
 
 h1 {
   font-size: 48px;
+  color: #fff;
   font-family: "Snowburst One", system-ui;
+  margin-left: 35px;
 }
